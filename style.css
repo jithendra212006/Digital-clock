@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #2c3a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    user-select: none;
+}
+
+.clock-container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#time {
+    font-size: 60px;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+#time:hover {
+    color: #00ffd5;
+    transform: scale(1.05);
+}
+
+#date {
+    font-size: 22px;
+    color: #ccc;
+}
